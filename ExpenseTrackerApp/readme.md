@@ -1,37 +1,23 @@
-Expense Tracker Documentation
+### Description
+Expense Tracker is a web application that helps users track their income and expenses. Users can add transactions, categorize them as income or expense, and view their overall balance.
 
-Overview Expense Tracker is a simple web application designed to help users track their expenses and income. It provides features to add new transactions, view transaction history, and visualize income vs. expenses using a graphical representation.
+### Features
+- Transaction Management:
+  - Add new transactions with a description and amount.
+  - Categorize transactions as income or expense.
+  - View the overall balance, income, and expenses.
+  - Delete transactions from the list.
 
-Features
+### Usage
+1. **Adding a Transaction:**
+   - Enter the transaction details in the input fields provided (text and amount).
+   - Select whether the transaction is income or expense.
+   - Click the "Add Transaction" button to add it to the list.
 
-Transaction Management:
-Add new transactions with a description and amount. View transaction history with details of each transaction. Remove individual transactions from the history.
+2. **Managing Transactions:**
+   - Click the "x" button next to a transaction to delete it from the list.
 
-Balance Display:
-Display the current balance with a breakdown of income and expenses. Graphical Representation:
-
-Visualize income vs. expenses using a bar chart.
-
-Usage
-
-Adding a Transaction
-Enter the transaction details in the "Add New Transaction" section.
-Provide a description in the "Text" field.
-Enter the transaction amount in the "Amount" field. Use positive values for income and negative values for expenses.
-Viewing Transaction History
-The transaction history is displayed under the "History" section. Each transaction includes the description, amount, and a delete button to remove the transaction.
-Visualizing Income vs. Expenses
-The graphical representation of income vs. expenses is displayed under the "Income vs. Expenses" section. It shows two bars representing income and expenses, allowing users to quickly understand their
-financial status.
-Development
-
-Technologies Used HTML CSS JavaScript 
-Dependencies None 
-
-Installation -
-    1 Clone the repository or download the source code.
-    2 Open the index.html file in a web browser. Development Environment This application can be further developed and customized according to specific requirements. 
-    3 Additional features, such as authentication, data persistence, and more detailed analytics, can be implemented based on user needs.
-
-
-Credits: This Expense Tracker application was developed by Sagar Seth.
+### Development
+- **Technologies Used:** HTML, CSS, JavaScript
+- **Dependencies:** None
+- **Installation:** Clone the repository or download the source code. Open the `index.html` file in a web browser.
