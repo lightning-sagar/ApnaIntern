@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Expense Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="con">
+    <div class="header">
+      <h1>Expense Tracker</h1>
+    </div>
+    <div class="balance-con">
+      <div class="balance">
+        <h2>Your Balance</h2>
+        <h1 id="balance">&#8377;0.00</h1>
+      </div>
+      <div class="inc-exp-con">
+        <div class="income">
+          <h3>Income</h3>
+          <p id="add" class="add money">+&#8377;0.00</p>
+        </div>
+        <div class="expense">
+          <h3>Expense</h3>
+          <p id="minus" class="minus money">-&#8377;0.00</p>
+        </div>
+      </div>
+    </div>
+    <div class="history-con">
+      <h3>History</h3>
+      <ul id="list" class="list"></ul>
+    </div>
+    <div class="form-con">
+      <h3>Add New Transaction</h3>
+      <form id="form">
+          <div class="controls">
+              <label for="text">Text</label>
+              <input type="text" id="text" placeholder="Enter Text...."/>
+          </div>
+          <div class="controls">
+              <label for="amount">Amount <br> (negative - expense ,positive - income )</label>
+              <input type="number" id="amount" placeholder="Enter amount..."> 
+          </div>
+          <button class="btn">All transaction</button>
+      </form>
+    </div>
+    <div class="chart-con">
+      <div class="chart">
+        <h3>Income vs. Expenses</h3>
+        <div class="bar-con">
+          <div class="bar income-bar" id="income-bar"></div>
+          <div class="bar expense-bar" id="expense-bar"></div>
+        </div>
+        <div class="labels">
+          <span class="label">Income</span>
+          <span class="label">Expenses</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
